@@ -1,0 +1,253 @@
+/*
+Steal anything you like. I myself stole it from David Wiens, who stole it from Jonah Schupbach, who stole it from JC Beall, who stole it from Ted Sider!
+*/
+
+body {
+	background: white;
+	color: #444;
+/*	font-family: optima,trebuchet,verdana,helvetica,sans-serif;*/
+	font-family: Avenir, sans-serif;
+	font-size: 80%;
+	}
+
+A 	   { color: #002855; }
+A:link	   { color: #002855 ; text-decoration: none; font-weight: bold}
+A:active   { color: #FF9621; text-decoration: none; }
+A:hover	   { color: #fff; text-decoration: none; background-color:#F6BE00;}
+
+/* Essex purple #681E5B: Essex Red #D62828 */
+
+/*
+A:hover	   { color: #FF9621; text-decoration: none; background-color:transparent;}
+A:visited  { color: #08088A; text-decoration: none; }
+*/
+
+.head A 	   { color: #ff9621; }
+.head A:link	   { color: #000000; text-decoration: none; }
+.head A:visited  { color: #000000; text-decoration: none; }
+.head A:active   { color: #000000; text-decoration: none; }
+.head A:hover	   { color: #08088A; text-decoration: none; background-color: #F6BE00}
+
+ul {
+	  list-style-type: none;
+    }
+
+li {
+    padding: 0 0 4px 0;
+	  }
+
+
+h1 {
+	margin:0;
+	padding: 0 0 4px 0;
+	color: black;
+	font-size: 180%;
+/*	font-family: Tahoma;*/
+/*    font-family: sans-serif,helvetica,trebuchet,verdana;*/
+/*	font-variant:small-caps;*/
+/*	text-transform: uppercase; */
+/*	font-weight:normal; */
+	}
+
+h2 {
+	color: #333333;
+    font-size: 115%;
+		}
+
+h3 {
+	margin: 8px 0 0 0;
+	color: #333333;
+	font-variant:small-caps;
+/*	text-transform: uppercase; */
+	font-size: 115%;
+	}
+
+
+div#page {
+	margin: 0 auto;
+	width: 940px;
+	margin-top: 20px;
+	}
+
+div#namer {
+	margin: 0 auto;
+	border-bottom: 1px solid #F6BE00;
+	}
+
+div#edu {
+	text-align: right;
+	font-size: 100%;
+	}
+
+div#content {
+	margin: 0;
+	padding: 0;
+	}
+
+div#content ul {
+	margin: 2px 2px 16px 2px;
+	padding: 0;
+	display: block;
+	  list-style-type: none
+	}
+
+div#content li {
+	margin-top: .5em;
+	padding: 0 0 6px 0;
+	display: block;
+	}
+
+div#content li.relist {
+	margin-top:0em;
+	margin-left:1em;
+}
+
+div#content p {
+	text-align: justify;
+	line-height: 120%;
+	margin: 8px 0 8px 0;
+	font-size: 125%;
+	}
+
+div#content img {padding: 0px;
+	border: none}
+
+div#colA {
+	float: left;
+	width: 650px;
+	padding: 0 12px 0 0;
+	}
+
+
+
+div#colB {
+	float: right;
+	width: 250px;
+	padding: 0 12px 12px 12px;
+	}
+
+/* divs pageFOO are for pages other than the main page  */
+
+div#pagecontent {
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 20px;
+	}
+
+div#pagenamer {
+	margin: 0 auto;
+	border-bottom: 1px solid #FF9621;
+	}
+
+div#pagecolA {
+	float:left;
+	width: 560px;
+	padding: 0 12px 0 0;
+	}
+
+div#pagecolB {
+	margin-left : 600px;
+	padding: 0 12px 12px 12px;
+	}
+
+/* --------------------------------------------------------------*/
+
+div#buttn {
+	padding: 8px 0 8px 0;
+	}
+
+a.buttbutt {
+	text-align: right;
+	font-weight:  bold;
+	padding: 4px;
+	color: #ffffff;
+ 	background-color: #002855;
+	}
+
+
+a.buttbutt:hover {
+	color: #ffffff;
+	background-color: #F6BE00;
+	}
+
+a.graphiclink:hover { background-color: transparent; }
+
+div#footer {
+	clear: both;
+	margin: 10px 0 6px 0px;
+	padding: 0;
+	border-top: 1px solid #F6BE00;
+	text-align: right;
+	}
+
+dd {
+	 	display:inline;
+		margin: 0 0 0 4px;
+		}
+
+dt {
+	display: inline ;
+	font-weight:  bold;
+	  text-transform: uppercase ;
+	  margin: 8px 0 0 0;
+		}
+
+dl dl dt {
+		display: inline ;
+		font-weight:  bold;
+		text-transform: none;
+		margin: 0 ;
+		}
+
+dl {
+		margin: 8px 0 0 0;
+		}
+
+dl dl {
+	 	margin: 8px 0 0 15px;
+		}
+
+
+a.dsphead{
+   text-decoration:none;
+   margin-left:.15em;
+   padding: 0 0 4px 0;
+   }
+a.dsphead:hover{
+   padding: 0 0 4px 0;
+   }
+a.dsphead span.dspchar{
+   font-family:monospace;
+   font-weight:normal;
+   padding: 0 0 4px 0;
+   }
+.dspcont{
+   display:none;
+   border:1px #232951;
+   padding:10px;
+   color:#000;
+   background:#f1f1f1;
+   margin: 10px 10px 10px 10px;
+   box-shadow:0px 0px 0px #000;
+-webkit-box-shadow:0px 0px 0px #000;
+-moz-box-shadow:0px 0px 0px #000000;
+border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+   }
+
+span.dspabst{
+    padding:10px 10px 10px 10px;
+    }
+
+
+/* Display "LaTeX" nicely (hacked from Bernd Beber's webpage) */
+span.TEX {letter-spacing: -0.125em;}
+span.TEX span.E {position:relative;top:0.5ex;left:-0.0417em;}
+a span.TEX span.E {text-decoration: none;}
+span.LATEX span.A{position:relative; top:-0.5ex; left:-0.4em; font-size:85%;}
+span.LATEX span.TEX{position:relative; left: -0.4em;}
+
+.codefrag {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.circle {list-style-type:circle}
